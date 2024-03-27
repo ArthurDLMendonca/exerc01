@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+  <form action=""method="post" enctype="multipart/form-data">
+
+    <fieldset>
+
+        <legend> Dados Pessoais:</legend>
+        <label> Nome </label>
+        <input  type="text" name="nome" id="nome" placeholder="ex: Luka Doncic" required/>
+        <label>E-mail:</label>
+        <input type="email" name="email" id="email"  required/>
+        <labeel> Senha</labeel>
+        <input type="password" name="senha" id="senha" required/><br />
+        <label>Sexo</label>
+        <input type="checkbox" name="dev" id="dev" value="Masculino"/>Masculino
+        <input type="checkbox" name="dev" id="dev" value="Femenino"/>Feminino
+         <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Endereço</legend>
+        <label>Cep</label>
+        <input type="text" nome="cep" id="cep" required/>
+        <label>Logradouro</label>
+        <input type="text" name="logradouro" id="logradouro"/>
+        <label>Numero</label>
+        <input type="text" name="logradouro" id="logradouro"/><br />
+        <label>Complemento</label>
+        <input type="text" name="numero" id="numero"/>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados Financeiros</legend>
+        <label>Tipo</label>
+        <input type="checkbox" name="dev" id="dev" value="Nacional"/>Nacional
+        <input type="checkbox" name="dev" id="dev" value="Internancional"/>Internancional
+        <label>Bandeira</label>
+        <select name="bandeira" id="bandeira">
+            <option value=" "></option>
+            <option value="VS">Visa</option>
+            <option value="MC">MasterCard</option> 
+        </select>
+        <label>Numero do Cartao</label>
+        <input type="text" name="numero_do_cartao" id="numero_do_cartao"/><br />
+        <label>Validade</label>
+        <input type="month" name="validade" id="validade">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </fieldset>
+
+        
